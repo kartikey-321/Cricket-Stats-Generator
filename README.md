@@ -8,5 +8,6 @@ It fetches players’ recent form, venue-specific performance, and head-to- head
 
 A glimpse of this application is shown below :
 
-(https://raw.githubusercontent.com/kartikey-321/Cricket-Stats-Generator/main/video.mp4
-)
+
+![My Movie 20](https://github.com/user-attachments/assets/3cd24303-2ebb-4998-836e-5e34d23df192)
+
