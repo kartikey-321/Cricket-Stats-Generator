@@ -14,6 +14,8 @@ chrome_options.add_extension('GIGHMMPIOBKLFEPJOCNAMGKKBIGLIDOM_5_15_0_0.crx')
 chrome_options.add_argument("--headless=new")
 
 
+#Extract names of players to fetch the stats
+
 df = pd.read_csv('cricket.csv')
 p = df['players'].tolist()
 v = df['venue'].tolist()
@@ -349,7 +351,7 @@ for k in range(len(p)):
         line = "NA"
     l2_bowl.append(line)
 
-    ###################BBL BAT#######################
+    ###################League Stats#######################
 
     time.sleep(1)
     driver.find_element(By.XPATH, "(//span[@aria-hidden='true'][normalize-space()='×'])[2]").click()
@@ -395,8 +397,6 @@ for k in range(len(p)):
     else:
         line = "NA"
     l4_bat.append(line)
-
-    ###################BBL BOWL#################
 
     driver.find_element(By.XPATH, "(//span[@role='presentation'])[1]").click()
     bowl = driver.find_element(By.XPATH, "(//input[@role='searchbox'])[20]")
