@@ -9,6 +9,5 @@ It fetches players’ recent form, venue-specific performance, and head-to- head
 A glimpse of this application is shown below :
 
 
-![My Movie 20](https://github.com/user-attachments/assets/3cd24303-2ebb-4998-836e-5e34d23df192)
-<img src="https://github.com/user-attachments/assets/3cd24303-2ebb-4998-836e-5e34d23df192" alt="My Movie 20" width="400"/>
+<img src="https://github.com/user-attachments/assets/3cd24303-2ebb-4998-836e-5e34d23df192" alt="My Movie 20" width="800"/>
 
