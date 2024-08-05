@@ -20,6 +20,7 @@ df = pd.read_csv('cricket.csv')
 p = df['players'].tolist()
 v = df['venue'].tolist()
 o = df['opponent'].tolist()
+path=df['location'].tolist()
 
 col = ['Innings']
 final = []
@@ -445,4 +446,4 @@ for k in range(len(p)):
 
 # Convert final list to DataFrame and save to CSV
 df1 = pd.DataFrame(final)
-df1.to_csv('Ultimate1.csv', index=False, header=False)
+df1.to_csv(path[0], index=False, header=False)
